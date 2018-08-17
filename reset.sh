@@ -1,6 +1,7 @@
-git reset --hard HEAD
-touch instructions.txt
-echo edit instructions > instructions.txt
+git rm Instructions.txt
+git reset --hard
+touch Instructions.txt
+echo edit Instructions > Instructions.txt
 echo edit README > README.md
 echo edit testOne > testOne.py
 echo edit testTwo > testTwo.py
